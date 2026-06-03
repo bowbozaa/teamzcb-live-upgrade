@@ -1,0 +1,11 @@
+{
+  "name": "teamzcb-live-upgrade",
+  "version": "3.0.0",
+  "type": "module",
+  "description": "ZCB Dashboard with Live D1 Data - Patched by Flyday",
+  "scripts": {
+    "deploy": "node deploy-live.mjs",
+    "dev": "npx wrangler dev",
+    "publish": "npx wrangler deploy"
+  }
+}
