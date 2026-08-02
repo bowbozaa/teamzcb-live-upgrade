@@ -6,3 +6,8 @@ compatibility_date = "2024-09-25"
 binding = "DB"
 database_name = "friclawd-db"
 database_id = "d2e8c736-1a8b-47d9-9d65-6142a3e15556"
+
+# เปิด logs/traces ให้ production ไม่เป็นกล่องดำ · sampling 20% คุมค่าใช้จ่าย (ตั้ง 2026-08-03)
+[observability]
+enabled = true
+head_sampling_rate = 0.2
